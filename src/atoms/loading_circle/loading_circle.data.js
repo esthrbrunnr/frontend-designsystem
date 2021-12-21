@@ -6,7 +6,7 @@ const defaultData = require('../../data/default.data.js');
 const template = dataHelper.getFileContent('loading_circle.hbs');
 const data = _.merge({}, defaultData, {
   meta: {
-    title: 'LoadingCircle',
+    title: 'Ladeanimation',
     className: 'LoadingCircle',
     jira: 'CZHDEV-807',
     documentation: dataHelper.getDocumentation('README.md'),
